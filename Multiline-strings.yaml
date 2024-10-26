@@ -1,0 +1,6 @@
+multilineString: |
+  this is a multiline String
+  and this is next line
+  next line
+  
+## Use pipe symbol for multi-line strings
