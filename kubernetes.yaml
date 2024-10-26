@@ -15,9 +15,9 @@ metadata:
 spec:
   containers:
     - name: nginx-container
-    - image: nginx
+      image: nginx
       ports:
-    - containerPort: 80
+      - containerPort: 80
       volumeMounts:
-    - name: nginx-vol
-      mountPath: /usr/nginx/html
+      - name: nginx-vol
+        mountPath: /usr/nginx/html
