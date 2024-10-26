@@ -1,0 +1,11 @@
+## for environment variables use $
+
+database:
+  host: $DB_HOST
+  port: $DB_PORT
+  user: $DB_USER
+  password: $DB_PASSWORD
+
+server:
+  host: $SERVER_HOST
+  port: $SERVER_PORT
