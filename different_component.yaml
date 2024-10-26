@@ -1,0 +1,16 @@
+app:
+  name: "MyApp"
+  version: "1.0.0"
+---
+
+database:
+  type: "PostgreSQL"
+  host: "localhost"
+  port: 5432
+---
+
+cache:
+  enabled: true
+  size: 256MB
+  
+  # Each --- marks a distinct component section: app, database, and cache. This format is clear and keeps components separate.
