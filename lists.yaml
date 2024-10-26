@@ -1,0 +1,5 @@
+microservices:
+  - app: user-authentication
+    port: 9000
+    version: 1.7
+    deployed: true
