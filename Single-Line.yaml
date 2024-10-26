@@ -1,0 +1,6 @@
+multilineString: >
+  this is a single line String,
+  that should be all on one line.
+  for readability, write using >
+  
+## Use > symbol for multi-line strings
